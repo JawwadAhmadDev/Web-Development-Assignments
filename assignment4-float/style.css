@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 650px;
+    height: 625px;
 }
 
 .hero .heroContent{
@@ -81,6 +81,60 @@
     cursor: pointer;
 }
 .hero .heroContent button:hover{
+    background-color: rgb(142, 139, 139);
+    color: rgb(230, 119, 50);
+}
+
+/* history section */
+.history{
+    height: 400px;
+}
+
+.history img{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.history .historyRight{
+    background-color: rgb(57, 56, 56);
+    height: 100%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.history .historyRightContent{
+    padding: 45px 20px;
+}
+
+.history .historyRight .historyRightContent h1{
+    font-size: 35px;
+    color:white;
+    padding-bottom: 25px;
+}
+
+.history .historyRight .historyRightContent h1 span{
+    color:rgb(234, 158, 103)
+}
+
+.history .historyRight .historyRightContent p{
+    color:white;
+    padding-bottom: 25px;
+    line-height: 30px;
+}
+
+.history .historyRight .historyRightContent button{
+    background-color: white;
+    color: black;
+    padding: 13px 25px;
+    border: none;
+    cursor: pointer;
+}
+.history .historyRight .historyRightContent button:hover{
     background-color: rgb(142, 139, 139);
     color: rgb(230, 119, 50);
 }
