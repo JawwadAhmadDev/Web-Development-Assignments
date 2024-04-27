@@ -42,3 +42,12 @@
     background-color: rgb(142, 139, 139);
     color: rgb(230, 119, 50);
 }
+
+
+.hero{
+    background-image: url(./assets/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 650px;
+}
