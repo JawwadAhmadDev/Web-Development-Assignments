@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* Navbar */
 .navbarContainer{
     background-color: rgb(57, 56, 56);
     color: white;
@@ -43,7 +44,7 @@
     color: rgb(230, 119, 50);
 }
 
-
+/* Hero Section */
 .hero{
     background-image: url(./assets/showcase.jpg);
     background-repeat: no-repeat;
