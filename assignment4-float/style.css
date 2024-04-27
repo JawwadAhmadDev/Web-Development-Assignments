@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbarContainer{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    overflow: hidden;
+}
+
+.navbarContainer nav{
+    max-width: 70%;
+    margin: auto;
+}
+
+.navbarContainer nav h1{
+    float: left;
+    padding: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbarContainer nav ul{
+    float: right;
+}
+
+.navbarContainer nav ul li{
+    display: inline-block;
+}
+
+.navbarContainer nav ul li a{
+    padding: 19px;
+    display: block;
+    list-style: none;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+.navbarContainer nav ul li a:hover{
+    background-color: rgb(142, 139, 139);
+    color: rgb(230, 119, 50);
+}
