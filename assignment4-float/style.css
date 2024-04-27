@@ -4,7 +4,7 @@
 }
 
 .navbarContainer{
-    background-color: rgb(65, 64, 64);
+    background-color: rgb(57, 56, 56);
     color: white;
     overflow: hidden;
 }
@@ -50,4 +50,33 @@
     background-position: center;
     background-attachment: fixed;
     height: 650px;
+}
+
+.hero .heroContent{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.hero .heroContent h1{
+    font-size: 55px;
+    color:white;
+    padding-bottom: 25px;
+}
+.hero .heroContent h1 span{
+    color:rgb(234, 158, 103)
+}
+
+.hero .heroContent p{
+    color:white;
+    padding-bottom: 25px;
+}
+
+.hero .heroContent button{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
