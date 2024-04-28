@@ -141,6 +141,9 @@
 }
 
 /* Features */
+.features {
+    overflow: hidden;
+}
 .features .feature{
     padding-top: 50px;
     padding-bottom: 60px;
@@ -166,3 +169,11 @@
     background-color: rgb(210, 167, 115);
 }
 
+/* footer */
+
+.footer{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
