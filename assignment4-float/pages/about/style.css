@@ -104,7 +104,7 @@
 }
 
 .guests .guestsContent .guest{
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
     overflow: hidden;
     background-color: rgb(234, 158, 103);
@@ -115,13 +115,21 @@
 
 .guests .guestsContent .guest .image{
     float: left;
-    width: 20%;
+    width: 15%;
 }
 .guests .guestsContent .guest .image img{
     border-radius: 100%;
 }
 .guests .guestsContent .guest p{
     float: right;
-    width: 80%;
+    width: 85%;
     padding-top: 20px;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
