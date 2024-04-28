@@ -71,7 +71,6 @@
     margin-top: 2px;
 }
 
-
 .hero .heroContainer .pictureSection{
     float: left;
     width: 50%;
@@ -80,4 +79,49 @@
     padding: 30px 100px;
     border-radius: 100%;
     margin: auto;
+}
+
+/* Guests Section */
+.guests{
+    background-image: url(/assets/test-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 625px;
+}
+
+.guests .guestsContent{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.guests .guestsContent h1{
+    font-size: 45px;
+    color:white;
+    padding-bottom: 25px;
+}
+
+.guests .guestsContent .guest{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(234, 158, 103);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.guests .guestsContent .guest .image{
+    float: left;
+    width: 20%;
+}
+.guests .guestsContent .guest .image img{
+    border-radius: 100%;
+}
+.guests .guestsContent .guest p{
+    float: right;
+    width: 80%;
+    padding-top: 20px;
 }
