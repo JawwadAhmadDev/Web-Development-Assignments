@@ -57,7 +57,7 @@ body {
 }
 
 /* hero */
-.hero {
+#header .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,18 +66,18 @@ body {
   height: 90vh;
   width: 100%;
 }
-.hero h1 {
+#header .hero h1 {
   color: white;
   font-size: 50px;
   font-weight: bolder;
   margin-bottom: 20px;
 }
-.hero p {
+#header .hero p {
   color: white;
   font-size: 20px;
   margin-bottom: 30px;
 }
-.hero button {
+#header .hero button {
   padding: 10px 25px;
   background-color: rgb(77, 186, 77);
   color: white;
