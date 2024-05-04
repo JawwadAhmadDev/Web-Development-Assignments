@@ -87,13 +87,13 @@ body {
 }
 
 /* features */
-.features {
+#features {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 35vh;
 }
-.features .feature {
+#features .feature {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,7 +101,7 @@ body {
   text-align: center;
   row-gap: 20px;
 }
-.features .feature .logo {
+#features .feature .logo {
   width: 50px;
   height: 50px;
   border-radius: 50%;
