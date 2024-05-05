@@ -185,3 +185,6 @@ body {
   width: 380px;
   height: 260px;
 }
+#business-cases .pictures img:hover {
+  filter: opacity(0.7);
+}
