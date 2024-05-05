@@ -188,3 +188,46 @@ body {
 #business-cases .pictures img:hover {
   filter: opacity(0.7);
 }
+
+/* Blog Section */
+#blog-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+#blog-section .right {
+  background: url(/assignment5-flex/assignment/showcase.jpg) no-repeat center
+    center/cover;
+  height: 100%;
+  width: 50%;
+}
+#blog-section .left {
+  background-color: rgb(59, 115, 199);
+  height: 100%;
+  width: 50%;
+}
+#blog-section .left .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+#blog-section .left .content .heading {
+  font-size: 40px;
+  font-weight: lighter;
+}
+#blog-section .left .content button {
+  padding: 12px 30px;
+  background-color: rgb(59, 115, 199);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
