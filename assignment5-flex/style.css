@@ -8,8 +8,7 @@ body {
 
 /* header */
 #header {
-  background: url(/assignment5-flex/assignment/showcase.jpg) no-repeat center
-    center/cover;
+  background: url(/assignment/showcase.jpg) no-repeat center center/cover;
   height: 100vh;
   /* filter: brightness(60%); */
   /* position: relative; */
@@ -122,8 +121,7 @@ body {
   height: 60vh;
 }
 #looking-for .left {
-  background: url(/assignment5-flex/assignment/people.jpg) no-repeat center
-    center/cover;
+  background: url(/assignment/people.jpg) no-repeat center center/cover;
   height: 100%;
   width: 50%;
 }
@@ -198,8 +196,7 @@ body {
   width: 100%;
 }
 #blog-section .right {
-  background: url(/assignment5-flex/assignment/showcase.jpg) no-repeat center
-    center/cover;
+  background: url(/assignment/showcase.jpg) no-repeat center center/cover;
   height: 100%;
   width: 50%;
 }
@@ -280,8 +277,7 @@ body {
   height: 70vh;
 }
 #contact-section .left {
-  background: url(/assignment5-flex/assignment/people.jpg) no-repeat center
-    center/cover;
+  background: url(/assignment/people.jpg) no-repeat center center/cover;
   height: 100%;
   width: 50%;
 }
