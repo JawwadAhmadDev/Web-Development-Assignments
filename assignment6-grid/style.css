@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* navbar */
+nav {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2.5fr 1fr 1fr;
+  grid-gap: 20px;
+}
+nav .social-icons {
+  justify-self: center;
+  font-size: 35px;
+}
+nav .social-icons i {
+  color: rgb(118, 116, 116);
+}
+nav .nav-menu {
+  justify-self: end;
+}
+nav .nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+nav .nav-menu ul li {
+  margin: 0 5px;
+}
+nav .nav-menu ul li a {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  padding: 15px 12px;
+}
+nav .nav-menu ul li a:hover {
+  background-color: brown;
+  color: white;
+}
