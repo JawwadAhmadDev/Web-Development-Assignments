@@ -144,7 +144,6 @@ nav .nav-menu ul li a:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   border-radius: 10px;
-  /* height: 28vh; */
 }
 #editor-pick .container .grid-container .grid-item img {
   height: 100%;
@@ -183,7 +182,6 @@ nav .nav-menu ul li a:hover {
   column-gap: 15px;
   height: 40vh;
 }
-
 #editor-pick .container .grid-container .item1 img {
   height: 100%;
 }
@@ -215,10 +213,6 @@ nav .nav-menu ul li a:hover {
 #editor-pick .container .item3 .tag {
   background-color: rgb(42, 140, 245);
 }
-/* #editor-pick .container .grid-container .item3 img {
-  height: 200px;
-  object-fit: cover;
-} */
 
 /* 4th Item */
 #editor-pick .container .grid-container .item4 {
@@ -231,9 +225,6 @@ nav .nav-menu ul li a:hover {
 #editor-pick .container .item4 .tag {
   background-color: orange;
 }
-/* #editor-pick .container .grid-container .item4 img {
-  height: 200px;
-} */
 
 /* 5th Item */
 #editor-pick .container .grid-container .item5 {
@@ -246,9 +237,6 @@ nav .nav-menu ul li a:hover {
 #editor-pick .container .item5 .tag {
   background-color: rgb(42, 140, 245);
 }
-/* #editor-pick .container .grid-container .item5 img {
-  height: 200px;
-} */
 
 /* 6th item */
 #editor-pick .container .grid-container .item6 {
