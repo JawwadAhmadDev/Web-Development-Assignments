@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit_contact" method="post">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your name.."
+      /><br />
+      <br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email.."
+      /><br />
+      <br />
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your message.."
+        style="height: 100px"
+      ></textarea
+      ><br />
+      <br />
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option></select
+      ><br />
+      <br />
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" /><br />
+      <br />
+      <label for="birth-date">Birth Date</label>
+      <input type="date" id="birth-date" name="birthdate" /><br />
+      <br />
+      <label>Membership</label>
+      <input type="radio" id="simple" name="membership" value="simple" />
+      <label for="simple">Simple</label>
+      <input type="radio" id="standard" name="membership" value="standard" />
+      <label for="standard">Standard</label>
+      <input type="radio" id="super" name="membership" value="super" />
+      <label for="super">Super</label><br /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

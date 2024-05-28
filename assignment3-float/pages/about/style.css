@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+.navbarContainer{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    overflow: hidden;
+}
+
+.navbarContainer nav{
+    max-width: 70%;
+    margin: auto;
+}
+
+.navbarContainer nav h1{
+    float: left;
+    padding: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.navbarContainer nav ul{
+    float: right;
+}
+
+.navbarContainer nav ul li{
+    display: inline-block;
+}
+
+.navbarContainer nav ul li a{
+    padding: 19px;
+    display: block;
+    list-style: none;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.navbarContainer nav ul li a:hover{
+    background-color: rgb(142, 139, 139);
+    color: rgb(230, 119, 50);
+}
+
+/* Hero Section */
+.hero{
+    overflow: hidden;
+}
+
+.hero .heroContainer{
+    max-width: 70%;
+    margin: auto;
+}
+
+.hero .heroContainer .contentSection{
+    float: left;
+    width: 50%;
+    padding: 30px 0px;
+}
+.hero .heroContainer .contentSection h1{
+    font-size: 55px;
+    padding-bottom: 25px;
+}
+.hero .heroContainer .contentSection h1 span{
+    color:rgb(234, 158, 103);
+}
+.hero .heroContainer .contentSection p{
+    line-height: 25px;
+    padding: 10px 10px;
+    margin-top: 2px;
+}
+
+.hero .heroContainer .pictureSection{
+    float: left;
+    width: 50%;
+}
+.hero .heroContainer .pictureSection img{
+    padding: 30px 100px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+/* Guests Section */
+.guests{
+    background-image: url(/assets/test-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 625px;
+}
+
+.guests .guestsContent{
+    max-width: 70%;
+    margin: auto;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.guests .guestsContent h1{
+    font-size: 45px;
+    color:white;
+    padding-bottom: 25px;
+}
+
+.guests .guestsContent .guest{
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(234, 158, 103);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+
+.guests .guestsContent .guest .image{
+    float: left;
+    width: 15%;
+}
+.guests .guestsContent .guest .image img{
+    border-radius: 100%;
+}
+.guests .guestsContent .guest p{
+    float: right;
+    width: 85%;
+    padding-top: 20px;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
