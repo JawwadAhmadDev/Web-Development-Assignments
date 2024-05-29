@@ -20,7 +20,3 @@
 .back-button:hover {
   background-color: #0056b3;
 }
-
-main {
-  padding-top: 60px; /* To ensure content doesn't go under the fixed button */
-}
