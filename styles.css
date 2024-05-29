@@ -65,12 +65,12 @@ h1 {
 .assignment-table td a {
   color: #03dac6;
   text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s ease;
+  /* font-size: 18px; */
 }
 
 .assignment-table td a:hover {
   color: #ff4081;
+  transition: color 0.3s ease;
 }
 
 .assignment-img {
@@ -84,11 +84,20 @@ h1 {
   transform: scale(1.1);
 }
 
+.pages-links-combine {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .footer {
   margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer h2 {
+  text-transform: capitalize;
   color: #03dac6;
   margin: 10px 0 5px;
 }
